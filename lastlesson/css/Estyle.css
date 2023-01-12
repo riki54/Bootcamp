@@ -1,0 +1,56 @@
+/* NAVIGATION BAR */
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  text-align: center;
+  background-color: rgb(70, 130, 180);
+  color: white;
+  padding: 5px;
+}
+table {
+  width: 100%;
+}
+/* Content 1 */
+.banner {
+  width: 550px;
+  margin-top: 20px;
+}
+.description {
+  color: rgb(70, 130, 180);
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.content-1 {
+  text-align: center;
+}
+.content-1 > p {
+}
+.content-1 > .description {
+}
+/* Content 2 */
+.content-2 {
+  text-align: center;
+}
+.description-2 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.pastor-img {
+  width: 450px;
+}
+.description-2 > .heading_2 {
+  font-family: "Comic Sans MS";
+  color: rgb(70, 130, 180);
+  font-size: 26px;
+}
+.description-2 > .description_2 {
+  font-family: "Comic Sans MS";
+}
+.save {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+}

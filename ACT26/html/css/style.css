@@ -1,0 +1,26 @@
+.forhover:hover {
+  color: orange;
+}
+.carousel-item h5 {
+  font-size: 50px;
+  color: orange;
+}
+.carousel-item p {
+  font-size: 26px;
+  color: gray;
+}
+a img {
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer p {
+  color: white;
+}
+.footer {
+  margin-top: 0;
+}
+footer {
+  margin-top: 0;
+  background-color: rgba(128, 128, 128, 0.719);
+}

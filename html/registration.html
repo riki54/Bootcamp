@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="C:\Users\UserPC\Desktop\bootcamp\img\iscp_logo" alt="iscp_logo" />
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic information</h2>
+    <form>
+      <label for="firstname">First name:</label>
+      <input type="text" placeholder="Enter your firstname" id="firstname" />
+      <br />
+      <label for="lastname">Last name:</label>
+      <input type="text" placeholder="Enter your lastname" id="lastname" />
+      <br />
+      <label for="placeOfBirth">Place of birth:</label>
+      <input type="text" placeholder="Enter your address" id="placeOfBirth" />
+      <br />
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" />
+      <br />
+      <select name="dropdown">
+        <option disabled selected>Civil status</option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option>
+        <option value="separated">separated</option>
+      </select>
+      <select name="dropdown">
+        <option disabled selected>Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <label for="mothersMaidenName">Mother's maiden name:</label>
+      <input
+        type="text"
+        placeholder="Enter Mother's maiden name"
+        id="mothersMaidenName"
+        style="width: 180px"
+      />
+      <br />
+      <label for="fathersName">Father's name:</label>
+      <input
+        type="text"
+        placeholder="Enter Fathers name"
+        id="mothersMaidenName"
+        style="width: 180px"
+      />
+      <br />
+      <h2>Contact information</h2>
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="Enter your email here"
+        id="email"
+        required
+      />
+      <br />
+      <label for="contactNumber">Contact Number</label>
+      <input
+        type="text"
+        placeholder="Enter your phone number here"
+        id="contactNumber"
+        style="width: 200px"
+        required
+      />
+      <br />
+      <label for="contactNumberTel">Contact Number</label>
+      <input
+        type="text"
+        placeholder="Enter your telephone number here"
+        id="contactNumberTel"
+        style="width: 230px"
+        required
+      />
+      <br />
+      <h2>Address</h2>
+      <label for="streetNumber">Street number:</label>
+      <input
+        type="text"
+        placeholder="Enter your street number"
+        id="streetNumber"
+      />
+      <label for="streetName">Street name:</label>
+      <input type="text" placeholder="Enter your street name" id="streetName" />
+      <br />
+      <label for="barangay">Barangay:</label>
+      <input type="text" placeholder="Enter your Barangay here" id="barangay" />
+      <br />
+      <label for="cityTown">City/Town:</label>
+      <input type="text" placeholder="Enter your City/town" id="cityTown" />
+      <br />
+      <label for="province">Province:</label>
+      <input type="text" placeholder="Enter your province here" id="province" />
+      <br />
+      <textarea placeholder="Enter your full adress here"></textarea>
+      <br />
+      <h2>Government information</h2>
+      <select name="dropdown">
+        <option disabled selected>Type of ID's</option>
+        <option value="sssID">SSS ID</option>
+        <option value="Pag-ibigID">Pag-Ibig ID</option>
+        <option value="PhilHealthID">PhilHealthID</option>
+      </select>
+      <br />
+      <label for="IDnumber">ID number:</label>
+      <input type="text" />
+      <br />
+      <label for="image">Upload 2x2 picture</label>
+      <br />
+      <input type="file" name="fileupload" accept="image/" />
+      <br />
+      <label for="image">Upload picture of government ID</label>
+      <br />
+      <input type="file" name="fileupload" accept="image/" />
+      <br />
+      <h2>Account information</h2>
+      <label for="username">Username:</label>
+      <input type="text" placeholder="Enter username here" id="username" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" placeholder="Enter password here" id="password" />
+      <br />
+      <label for="confirmPassword">Confirm Password:</label>
+      <input
+        type="confirmPassword"
+        placeholder="Re-enter your password"
+        id="password"
+      />
+      <br />
+      <label for="image">Upload your profile image</label>
+      <br />
+      <input type="file" name="fileupload" accept="image/" />
+    </form>
+    <form>
+      <h2>Have you experienced any of the following in the last 30 days?</h2>
+      <input type="checkbox" value="" /> Coughing
+      <input type="checkbox" value="" /> Fever
+      <input type="checkbox" value="" /> Headache
+      <input type="checkbox" value="" /> Common cold
+      <input type="checkbox" value="" /> Body ache
+      <input type="checkbox" value="" /> Sore throat
+      <input type="checkbox" value="" /> Tiredness
+      <input type="checkbox" value="" /> Loss of smell
+      <input type="checkbox" value="" /> None of the above
+      <h2>About me</h2>
+      <textarea
+        placeholder="Give a short description about yourself."
+        style="width: 300px"
+        id="description"
+      ></textarea>
+      <br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>

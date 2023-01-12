@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation-bar {
+  background-color: rgb(70, 130, 180);
+}
+nav {
+  background-color: rgb(70, 130, 180);
+  color: white;
+}
+
+.description {
+  color: rgb(70, 130, 180);
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.content-2 {
+  margin-top: 20px;
+}
+
+.description_2 {
+  height: 36px;
+}
+.heading_2 {
+  color: rgb(70, 130, 180);
+  font-size: 26px;
+}
+
+.save {
+  font-size: 36px;
+  font-weight: light;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-position: inside;
+}
+footer {
+  color: rgb(160, 160, 160);
+}
+footer a {
+  color: rgb(160, 160, 160);
+}

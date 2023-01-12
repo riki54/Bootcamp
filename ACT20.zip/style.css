@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+}
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(70, 130, 180);
+  color: white;
+  padding: 5px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav:hover {
+  background-color: rgb(0, 0, 139);
+}
+
+.banner {
+  margin-top: 20px;
+}
+.description {
+  color: rgb(70, 130, 180);
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.content-1 {
+  text-align: center;
+}
+.content-1 > p {
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+.content-1 > .description {
+  font-family: "Tahoma";
+  font-weight: 600;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.description-2 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.savelink {
+  color: blue;
+}
+.savelink:visited {
+  color: orange;
+}
+.savelink:hover {
+  color: magenta;
+}
+.savelink:active {
+  color: lime;
+}
+.description-2 > .heading_2 {
+  font-family: "Tahoma";
+  color: rgb(70, 130, 180);
+  font-size: 26px;
+}
+.description-2 > .description_2 {
+  font-family: "Tahoma";
+}
+.save {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Tahoma";
+  margin-top: 40px;
+}
+.cross {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.content-3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+.content-4 {
+  text-align: center;
+}
+.content-4 table,
+th,
+td {
+  border-collapse: collapse;
+  border: 4px dotted black;
+}
+tr {
+  font-weight: 500;
+}
+tr:nth-child(even) {
+  background-color: rgb(211, 208, 208);
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+.content-5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: rgb(160, 160, 160);
+}
+footer a {
+  color: rgb(160, 160, 160);
+}
